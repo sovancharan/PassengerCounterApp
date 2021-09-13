@@ -13,8 +13,8 @@ function increment() {
 }
 
 function save() {
-let countstr=count+"-"
-saveEl.innerText +=countstr
+let countstr=count+" - "
+saveEl.textContent +=countstr
 countEl.textContent=0
 console.log(count)
 }
